@@ -2,7 +2,6 @@ Github adalah tempat penyimpanan online Bagi para programmer
 
 //Saat baru membuat Akun github gunakan ini://
 # git status = mengecek status folder
-# git init  = untuk membuat repository
 # git add . = menambah semua file ke penyimpanan git (tapi belum sebetulnya)
 # git commit -m "<deskrpisi>" = menambah file ke penyimpanan git (fix nya)
 
@@ -19,7 +18,6 @@ git push -u origin master
 # git push = memasukkan file dari direktori laptop ke direktori github(repo)
 
 
-//Untuk menyambungkan Folder ke Github
 # git remote = membuat remote, bisa dibilang untuk menyambungkan github dengan folder di laptop contoh penulisannya :
   git remote add <nama remote> url repositorinya/folder githubnya, contoh:
   git remote add origin https://blablabalalnal
