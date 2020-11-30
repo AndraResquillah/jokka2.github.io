@@ -1,0 +1,3 @@
+git status = mengecek status folder
+git add . = menambah semua file ke penyimpanan git (tapi belum sebetulnya)
+git commit -m "<deskrpisi>" = 
