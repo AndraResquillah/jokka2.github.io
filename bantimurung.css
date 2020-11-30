@@ -1,0 +1,10 @@
+.Pembukaan {
+    background : #e6e600;
+}
+
+.TopBanner {
+    background : url(forBantimurung.png);
+    background-position : 40%50%; 
+    background-repeat:  no-repeat;
+    background-size: 358mm;
+}
