@@ -1,15 +1,22 @@
-git status = mengecek status folder
-git add . = menambah semua file ke penyimpanan git (tapi belum sebetulnya)
-git commit -m "<deskrpisi>" = menambah file ke penyimpanan git (fix nya)
-git push = memasukkan file dari direktori laptop ke direktori github(repo)
+# git status = mengecek status folder
+# git add . = menambah semua file ke penyimpanan git (tapi belum sebetulnya)
+# git commit -m "<deskrpisi>" = menambah file ke penyimpanan git (fix nya)
+
+# git pull = untuk menarik perubahan dari github/ bisa digunakan ketika ada perubahan di folder yg ada di laptop lalu ingin di push. contoh penulisannya:
+	git pull <nama remote> <nama branch>. contoh :
+	git pull origin master
+# git push = memasukkan file dari direktori laptop ke direktori github(repo)
 
 //jika baru pertama kali ingin memasukkan file ke github gunakan ini ://
 git push -u <nama remote> <nama branch>. contoh:
 git push -u origin master
 
-git remote = membuat remote, bisa dibilang untuk menyambungkan github dengan folder di laptop contoh penulisannya :
-git remote add <nama remote> url repositorinya/folder githubnya, contoh:
-git remote add origin https://blablabalalnal
+# git remote = membuat remote, bisa dibilang untuk menyambungkan github dengan folder di laptop contoh penulisannya :
+  git remote add <nama remote> url repositorinya/folder githubnya, contoh:
+  git remote add origin https://blablabalalnal
 
 
 
+
+
+	
