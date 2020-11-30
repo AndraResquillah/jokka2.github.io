@@ -3,6 +3,7 @@ Github adalah tempat penyimpanan online Bagi para programmer
 //Saat baru membuat Akun github gunakan ini://
 # git status = mengecek status folder
 # git init  = untuk membuat repository
+
 # git add . = menambah semua file ke penyimpanan git (tapi belum sebetulnya)
 # git commit -m "<deskrpisi>" = menambah file ke penyimpanan git (fix nya)
 
@@ -12,16 +13,18 @@ git push -u <nama remote> <nama branch>. contoh:
 git push -u origin master
 
 
+
 //jika telah mengubah suatu file, gunakan ini://
-# git commit -am "Deskripsi" = jika file berstatus modified. bisa gunakan ini, 
-				perintah ini bisa dibilang add + commit
+# git commit -am "Deskripsi" = jika file berstatus modified. bisa gunakan ini, perintah ini bisa dibilang add + commit
+  Contoh : git commit -am "Mengubah Data"
+# git push = memasukkan file dari direktori laptop ke direktori github(repo)
 
 
 
 # git pull = untuk menarik perubahan dari github/ bisa digunakan ketika ada perubahan di folder yg ada di laptop lalu ingin di push. contoh penulisannya:
 	git pull <nama remote> <nama branch>. contoh :
 	git pull origin master
-# git push = memasukkan file dari direktori laptop ke direktori github(repo)
+
 
 //Untuk menyambungkan Folder ke Github
 # git remote = membuat remote, bisa dibilang untuk menyambungkan github dengan folder di laptop contoh penulisannya :
