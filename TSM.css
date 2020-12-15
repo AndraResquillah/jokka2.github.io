@@ -1,0 +1,6 @@
+.TopBanner {
+    background : url(Image/TSM_CSS.jpg);
+    background-position : 30%50%; 
+    background-repeat:  repeat-y;
+    background-size: 428mm;
+}

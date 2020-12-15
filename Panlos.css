@@ -1,0 +1,10 @@
+.Pembukaan {
+    background : #e6e600;
+}
+
+.TopBanner {
+    background : url(Image/pantai-losari.JPG);
+    background-position : 20%25%; 
+    background-repeat:  no-repeat;
+    background-size: 490mm;
+}
